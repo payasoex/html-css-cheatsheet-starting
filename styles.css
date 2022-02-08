@@ -1,0 +1,48 @@
+* {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    text-align: center;
+}
+
+h1, h2, p {
+    color: #55B849;
+}
+
+table {
+    font-family: monospace;
+    color: #55B849;
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;  
+}
+
+th {
+    background-color: #834D9D;
+    color: #55B849;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid green;    
+}
+
+.code {
+    font-style: italic;
+    font-weight: bold;
+}
+
+tr:hover {background-color: yellow;}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>HTML/CSS cheat sheet</title>
+        <link href="./styles.css" rel="stylesheet">
+        <style>
+            tr:nth-child(even) {background-color: darkgoldenrod;}
+            tr:hover {background-color: yellow;}
+        </style>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>CSS Selectors</h1>
+            <p>
+                In CSS, selectors are patterns used to
+                select the element(s) you want to style.
+            </p>
+            <h2>The most used selectors are the following:</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Example description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="code">.class</span>
+                        </td>
+                        <td>.intro</td>
+                        <td>Selects all with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">.class1.class2</span>
+                        </td>
+                        <td>.name1.name2</td>
+                        <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">.class1 .class2</span>
+                        </td>
+                        <td>.name1 .name2</td>
+                        <td>Selects all elements with name2 that is a descendant of an element with name1</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">#id</span>
+                        </td>
+                        <td>#firstname</td>
+                        <td>Selects the element with id="firstname"</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">*</span>
+                        </td>
+                        <td>*</td>
+                        <td>Selects all elements</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">element</span>
+                        </td>
+                        <td>p</td>
+                        <td>Selects all &lt;p&gt; elements</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">element.class</span>
+                        </td>
+                        <td>p.intro</td>
+                        <td>Selects all &lt;p&gt; elements with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">element,element</span>
+                        </td>
+                        <td>div, p</td>
+                        <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="code">element element</span>
+                        </td>
+                        <td>div p</td>
+                        <td>Selects all &lt;p&gt; elements inside &lt;div&gt; elements</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
+
